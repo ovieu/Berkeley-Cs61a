@@ -27,6 +27,11 @@ def repeated(f, n, x):
     True
     """
     "*** YOUR CODE HERE ***"
+    result = f(x)
+    for a in range(1,n):
+        result = f(result)
+        a+=1
+    return result
 
 # If Statements
 
