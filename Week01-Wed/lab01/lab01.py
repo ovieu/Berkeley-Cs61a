@@ -33,6 +33,12 @@ def repeated(f, n, x):
         a+=1
     return result
 
+### "*** MORE EFFICIENT CODE ****
+    def repeated(f,n,x):
+        while n > 0:
+            x = f(x)
+            n -=1
+        return x
 # If Statements
 
 def xk(c, d):
