@@ -25,3 +25,19 @@ def handle_overflow(s1, s2):
 		print("{} spot left in Section 1".format(space))
 	else:
 		print("No Overflow")
+
+
+##1.6 Fizzbuzz Question
+def fizzbuzz(n):
+	k = 1
+	while k <= n:
+		if ((k%3 == 0) and (k%5 == 0)):
+			print("Fizzbuzz")
+		elif((k%3 == 0) and (k%5 != 0)):
+			print("Fizz")
+		elif((k%3 != 0) and (k%5 == 0)):
+			print("Buzz")
+		else:
+			print(k)
+		k += 1
+		
