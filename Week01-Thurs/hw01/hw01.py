@@ -27,7 +27,7 @@ def two_of_three(a, b, c):
     >>> two_of_three(5, 5, 5)
     50
     """
-    return _____
+    return max((a*a + b*b), (a*a + c*c), (b*b + c*c))
 
 def largest_factor(n):
     """Return the largest factor of n that is smaller than n.
